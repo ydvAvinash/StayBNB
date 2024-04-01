@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Details Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b0da038f38.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navBar" class="navbar-white">
+        <a href="index.html"><img src="images/logo-red.png" class="logo" ></a>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Popular places</a></li>
+            <li><a href="#">Travel outside</a></li>
+            <li><a href="listing.html">Online packages</a></li>
+        </ul>
+        <a href="reg/index.html" class="register-btn">Register Now</a>
+        <i class="fas fa-bars" onclick="togglebtn()"></i>
+    </nav>
+
+    <div class="house-details">
+        <div class="house-title">
+            <h1>A'D Villa</h1>
+            <div class="row">
+                <div>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                    <span>245 Reviews</span>
+                </div>
+                <div>
+                    <p>Location: Kalimiti, Biratnagar, Lazimpat</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="images/s1.jpeg" ></div>
+            <div><img src="images/s2.jpg" ></div>
+            <div><img src="images/food.jpg" ></div>
+            <div><img src="images/b1.jpg" ></div>
+            <div><img src="images/bal.jpg" ></div>
+        </div>
+        <div class="small-details">
+            <h2>Entire rental unit hosted by Dala Dai</h2>
+            <p>2 Guest &nbsp; &nbsp; 2 Beds &nbsp; &nbsp; 1 Bathroom</p>
+            <h4>$99/ day</h4>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+                <label>Check-In</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div>
+                <label>Check-Out</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div class="guest-field">
+                <label>Guest</label>
+                <input type="text" placeholder="2 Guest">
+            </div>
+            <button type="submit">Check Availability</button>
+        </form>
+
+        <ul class="details-list">
+            <li><i class="fas fa-home"></i>Entire Home
+                <span>You will have the entire flat for you.</span>
+            </li>
+            <li><i class="fas fa-paint-brush"></i>
+                Enhanced Clean
+                <span>This host has committed to Staybnb's cleaning process.</span>
+            </li>
+            <li><i class="fas fa-map-marker-alt"></i>Great Location
+                <span>90% of recent guests gave the location a 5 star rating.</span>
+            </li>
+            <li><i class="fas fa-heart"></i>Great Check-In Experience
+                <span>100% of recent guests gave the Check-In process a 5 star rating </span>
+            </li>
+        </ul>
+
+         <hr class="line">
+        <p class="home-desc">Guest will be allocated on ground floor according to availability. You get a comfortable two bedroom apartment has a true city 
+            feeling. The price quoted is for two guest, at the guest slot please mark the number of guest to get the exact price for 
+            the group. The guest will be allocated ground floor according to availability.
+        </p>
+        <hr class="line">
+
+        <div class="map">
+            <h3>Location on map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112488.40702092387!2d83.88657786161983!3d28.22970455904599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995937bbf0376ff%3A0xf6cf823b25802164!2sPokhara!5e0!3m2!1sen!2snp!4v1642272514481!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+            <b>Pokhara Lake side</b>
+            <p>A home away form home</p>
+        </div>
+        
+        <hr class="line">
+
+        <div class="host">
+            <img src="images/dala.png">
+            <div>
+                <h2>Hosted By Dala Dai</h2>
+                <p><span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </span>&nbsp; &nbsp; 245 reviews &nbsp; &nbsp; Response rate 100% &nbsp; &nbsp;
+                Response time: 60min</p>
+            </div>
+        </div>
+        <a href="#" class="contat-host">Contact Host</a>
+    </div>
+
+    <div class="container">
+        
+    <div class="footer">
+        <a href="https://facebook.com/"><i class="fab fa-facebook-square"></i></a>
+     <a href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
+     <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+     <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+     <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+     <hr>
+     <p>copyright © 2021, Team Avinash & Friends </p>
+    </div>
+    </div>
+    <script>
+        var navBar = document.getElementById("navBar");
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu")
+        }
+    </script>
+
+</body>
+</html>
